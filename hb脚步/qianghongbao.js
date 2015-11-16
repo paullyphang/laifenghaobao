@@ -23,4 +23,4 @@ function getHb(){
 	}
 }
 
-var	timer1 = window.setInterval(getHb,ts*1000);
+timer1 = window.setInterval(getHb,ts*1000);
