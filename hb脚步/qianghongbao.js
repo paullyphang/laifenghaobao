@@ -1,9 +1,8 @@
 
 //自动抢红包JS代码
-
 var ts = 0.1;
 var	timer1,timer2;
- 
+
 function findHb() {
 	if(JQuery(".middle_star")!=null) {
 		JQuery(".middle_star").click();
