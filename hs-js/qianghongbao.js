@@ -13,7 +13,7 @@ function findHb() {
 
 timer2 = window.setInterval(findHb,ts*1000);
 
-function getHb(){
+function getHb() {
 	if(JQuery(".big_bonus_active_btn")!=null){
 		JQuery(".big_bonus_active_btn").click();
 	}else{
